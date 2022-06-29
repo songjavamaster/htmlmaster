@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동영상 배경</title>
+    <style>
+        #container{
+            position: relative;
+            text-align: center;
+            margin-top: 30%;
+            margin-left: 30%;
+        }
+        h2{
+            font-size: 2em;
+            color: rgb(226, 99, 99);
+        }
+        h1{
+            font-size: 3.5em;
+        }
+        a:link,a:visited{
+            text-decoration: none;
+            color: WHITE;
+        }
+        a:hover{
+            cursor: pointer;
+        }
+        #bg{
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: auto;
+            height: auto;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -100;
+            background: url(head.PNG)left top no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <video src="audio/Anime - 84574.mp4" autoplay loop muted poster="head.PNG" id="bg"></video>
+    <div id="container">
+        <h2>토미오카 기유</h2>
+        <h1><a href="https://namu.wiki/w/%ED%86%A0%EB%AF%B8%EC%98%A4%EC%B9%B4%20%EA%B8%B0%EC%9C%A0">물의 호흡</a></h1>
+    </div>
+</body>
+</html>
